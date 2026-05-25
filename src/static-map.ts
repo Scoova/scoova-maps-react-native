@@ -1,7 +1,7 @@
 /**
  * Standalone static-map URL helpers + style URL builder for React Native.
  *
- * Pure functions — no peer dependency on `@maplibre/maplibre-react-native`.
+ * Pure functions — no peer dependency on `@MapLibre/@maplibre/maplibre-react-native`.
  * Use them with `<Image source={{ uri }} />` for snapshots, or feed
  * `styleUrl()` into `<MapView styleURL={...} />` when you don't need the
  * `DEFAULTS` constants directly.
@@ -102,7 +102,7 @@ export async function staticMap(opts: StaticMapOptions): Promise<Blob> {
 }
 
 /**
- * MapLibre-compatible style URL. Drop into
+ * Scoova-compatible style URL. Drop into
  * `<MapView styleURL={styleUrl('scoova-dark', { apiKey: '…' })} />`.
  */
 export function styleUrl(styleName: string, opts: StyleUrlOptions): string {

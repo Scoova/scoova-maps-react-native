@@ -56,7 +56,7 @@ export function buildInlineStyle(options: ScoovaStyleOptions = {}): MaplibreStyl
 }
 
 export interface RouteFeature {
-  /** GeoJSON Feature ready for MapLibre's <ShapeSource /> in maplibre-react-native. */
+  /** GeoJSON Feature ready for MapLibre's <ShapeSource /> in @maplibre/maplibre-react-native. */
   shape: {
     type: 'Feature';
     properties: Record<string, unknown>;

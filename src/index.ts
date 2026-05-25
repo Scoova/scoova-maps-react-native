@@ -1,9 +1,9 @@
 /**
  * @scoova/maps-react-native
  *
- * Wraps `@maplibre/maplibre-react-native` with Scoova defaults. We deliberately
- * do not re-export the maplibre-rn components — apps install
- * `@maplibre/maplibre-react-native` directly and pass our `DEFAULTS.styleUrl`
+ * Wraps `@MapLibre/@maplibre/maplibre-react-native` with Scoova defaults. We deliberately
+ * do not re-export the MapLibre-rn components — apps install
+ * `@MapLibre/@maplibre/maplibre-react-native` directly and pass our `DEFAULTS.styleUrl`
  * to its `<MapView />`. This package ships the data builders + types that keep
  * apps off the boilerplate.
  */

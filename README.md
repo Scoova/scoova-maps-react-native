@@ -3,22 +3,22 @@
 Scoova map SDK for React Native. Two things in one package:
 
 1. **MapLibre helpers** — `DEFAULTS`, `buildInlineStyle`, `routeFeature`,
-   `markerFeature`, `bboxOf` to feed into `@maplibre/maplibre-react-native`.
+   `markerFeature`, `bboxOf` to feed into `@MapLibre/@maplibre/maplibre-react-native`.
 2. **Standalone static-map + style URL builders** (`staticMapUrl`,
    `staticMap`, `styleUrl`) — pure functions, no peer deps, perfect for
    `<Image>` snapshots and share images.
 
 ```sh
-npm install @scoova/maps-react-native @maplibre/maplibre-react-native
+npm install @scoova/maps-react-native @MapLibre/@maplibre/maplibre-react-native
 ```
 
-`@maplibre/maplibre-react-native` is only required if you render the live
+`@MapLibre/@maplibre/maplibre-react-native` is only required if you render the live
 map. The static-map and style URL helpers work standalone.
 
 ## Live map
 
 ```tsx
-import { MapView, Camera, ShapeSource, LineLayer, CircleLayer } from '@maplibre/maplibre-react-native';
+import { MapView, Camera, ShapeSource, LineLayer, CircleLayer } from '@MapLibre/@maplibre/maplibre-react-native';
 import {
   DEFAULTS,
   routeFeature,

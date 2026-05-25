@@ -10,7 +10,7 @@ Follows [Semantic Versioning](https://semver.org/).
   for `<Image source={{ uri }} />`.
 - `staticMap(opts)` — `Promise<Blob>` convenience that forwards
   `Accept-Language` when a locale is provided.
-- `styleUrl(styleName, { apiKey, locale? })` — MapLibre-compatible style URL
+- `styleUrl(styleName, { apiKey, locale? })` — Scoova-compatible style URL
   builder usable straight from `<MapView styleURL={...} />`.
 - `styleUrlForLocale(locale)` — convenience on `DEFAULTS.styleUrl`.
 - `DEFAULT_API_BASE`, `DEFAULT_TILES_BASE` exports.

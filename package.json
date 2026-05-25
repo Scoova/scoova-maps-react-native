@@ -1,6 +1,6 @@
 {
   "name": "@scoova/maps-react-native",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Scoova map SDK for React Native \u2014 wraps @maplibre/maplibre-react-native with Scoova tile/style defaults, route + marker helpers, and standalone static-map URL builders.",
   "main": "lib/typescript/index.js",
   "types": "lib/typescript/index.d.ts",
